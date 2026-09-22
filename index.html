@@ -1,185 +1,508 @@
 <!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tech Careers</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-  </head>
-  <body>
-    <!-- Cabeçalho -->
-    <header>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg text-bg-primary">
-        <div class="container-fluid">
-          <i class="bi bi-cpu"></i>
-          <a class="navbar-brand text-white" href="#">Tech Careers</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Careers</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg text-bg-primary">
+      <div class="container-fluid">
+        <i class="bi bi-cpu"></i>
+        <a class="navbar-brand text-white" href="#">Tech Careers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Vagas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Cursos</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="Área do Candidato">
+            <button class="btn btn-outline-light" type="submit">
+              Área do Candidato
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Área principal -->
+  <main>
+    <!-- Hero -->
+    <section class="py-5 bg-dark">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Texto -->
+          <div class="col-md-6">
+            <h1 class="display-4 fw-bold text-white">
+              Sua carreira em tecnologia começa aqui!
+            </h1>
+
+            <p class="lead text-white">
+              Conectamos talentos tech ás melhores oportunidades do mercado.
+            </p>
+
+            <!-- Botões -->
+            <a href="#" class="btn btn-primary btn-lg me-2"> Ver Vagas </a>
+
+            <a href="#" class="btn btn-outline-primary btn-lg">
+              Cursos Gratuitos
+            </a>
+          </div>
+
+          <!-- Imagem -->
+          <div class="col-md-6 text-center mt-4 mt-md-0">
+            <img src="https://conteudo.imguol.com.br/blogs/113/files/2018/01/iStock-635974362.jpg"
+              alt="Imagem ilustrativa" class="img-fluid rounded" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <!-- Título da Seção -->
+    <div class="d-flex justify-content-center align-items-center">
+      <i class="bi bi-stars" style="font-size: 2rem"></i>
+      <h2>Vagas em Destaque</h2>
+    </div>
+
+    <!-- Seção de Vagas -->
+    <section class="container">
+      <br />
+      <div class="row">
+        <!-- Card-1 -->
+        <div class="col-lg">
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <span class="badge rounded-pill text-bg-success">Remoto</span>
+              <h5 class="card-title">Desenvolvedor Front-End</h5>
+              <p class="card-text">HTML, CSS, JavaScript e React</p>
+              <div class="d-flex gap-2">
+                <i class="bi bi-square-fill"></i>
+                <p class="card-text">Tech Solutions Inc.</p>
+              </div>
+              <br />
+              <a href="#" class="btn btn-primary">Candidatar-se</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-2 -->
+        <div class="col-lg">
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <span class="badge rounded-pill text-bg-warning">Híbrido</span>
+              <h5 class="card-title">Analista de Dados</h5>
+              <p class="card-text">Python, SQL e Power BI</p>
+              <div class="d-flex gap-2">
+                <i class="bi bi-square-fill"></i>
+                <p class="card-text">Data Insights</p>
+              </div>
+              <br />
+              <a href="#" class="btn btn-primary">Candidatar-se</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-3 -->
+        <div class="col-lg">
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <span class="badge rounded-pill text-bg-info">Junior</span>
+              <h5 class="card-title">UX Designer</h5>
+              <p class="card-text">Figma, UI/UX e Prototipação</p>
+              <div class="d-flex gap-2">
+                <i class="bi bi-square-fill"></i>
+                <p class="card-text">Digital Creations</p>
+              </div>
+              <br />
+              <a href="#" class="btn btn-primary">Candidatar-se</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="#" class="btn btn-outline-primary">
+          Ver todas as vagas <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <!-- Seção de Cursos -->
+    <section class="container py-5">
+      <div class="text-center mb-5">
+        <i class="bi bi-mortarboard-fill text-primary" style="font-size: 2rem"></i>
+        <h2 class="fw-bold">Cursos para sua carreira</h2>
+      </div>
+
+      <!-- Curso 1 -->
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="card-img-top"
+              alt="Curso de Programação web" />
+            <div class="card-body d-flex flex-column">
+              <span class="badge text-bg-success align-self-start mb-2">
+                Gratuito
+              </span>
+              <h5 class="card-title">Programação Web</h5>
+              <p class="card-text">Domine HTML, CSS e JavaScript.</p>
+              <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#cursoModal">
+                Começar Agora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Curso 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4" class="card-img-top"
+              alt="Data Science" />
+            <div class="card-body d-flex flex-column">
+              <span class="badge text-bg-success align-self-start mb-2">Gratuito</span>
+              <h5 class="card-title">Data Science</h5>
+              <p class="card-text">Introduçao a analise de dados.</p>
+              <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#cursoModal">
+                Começar Agora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Curso 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img src="https://miro.medium.com/v2/resize:fit:768/0*TroPLa-TGTwlJDqE.png" class="card-img-top"
+              alt="Curso de UX Design" />
+            <div class="card-body d-flex flex-column">
+              <span class="badge text-bg-success align-self-start mb-2">Gratuito</span>
+              <h5 class="card-title">UX Design</h5>
+              <p class="card-text">Fundamentos de experiência do usuário.</p>
+              <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#cursoModal">
+                Começar Agora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Curso 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" class="card-img-top"
+              alt="Cloud Computing" />
+            <div class="card-body d-flex flex-column">
+              <span class="badge text-bg-success align-self-start mb-2">Gratuito</span>
+              <h5 class="card-title">Cloud Computing</h5>
+              <p class="card-text">Introdução a AWS e Azure.</p>
+              <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#cursoModal">
+                Começar Agora
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="mt-5">
+
+    <!-- Carrossel -->
+    <section class="container my-5">
+
+      <!-- Título -->
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">
+          <i class="bi bi-chat-square-quote"></i>
+          Quem conseguiu emprego
+        </h2>
+      </div>
+
+      <!-- CARROSSEL -->
+      <div id="carouselDepoimentos" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselDepoimentos" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Perfil 1">
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-white"
-                  aria-current="page"
-                  href="#"
-                  >Ínicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Vagas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Cursos</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="Área do Candidato">
-              <button class="btn btn-outline-light" type="submit">
-                Área do Candidato
+
+          <button type="button" data-bs-target="#carouselDepoimentos" data-bs-slide-to="1" aria-label="Perfil 2">
+          </button>
+
+          <button type="button" data-bs-target="#carouselDepoimentos" data-bs-slide-to="2" aria-label="Perfil 3">
+          </button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+          <!-- Perfil 1 -->
+          <div class="carousel-item active">
+            <div class="text-center py-5">
+
+              <img src="https://i.pinimg.com/736x/a8/32/d9/a832d9d4a780130643304325cf069fce.jpg"
+                class="rounded-circle mb-3" width="80" height="80" alt="Ana Silva">
+
+              <p class="fst-italic text-secondary mx-auto w-75">
+                "Consegui minha primeira vaga como desenvolvedora
+                júnior após completar os cursos da plataforma!"
+              </p>
+
+              <h5 class="fw-bold mb-1">
+                Ana Silva
+              </h5>
+
+              <p class="text-secondary mb-0">
+                Desenvolvedora Front-end na TechSolutions
+              </p>
+
+            </div>
+          </div>
+
+
+          <!-- Perfil 2 -->
+          <div class="carousel-item">
+            <div class="text-center py-5">
+
+              <img src="https://i.pinimg.com/736x/4a/23/6b/4a236bd7d767747a28b34389867dd4a9.jpg"
+                class="rounded-circle mb-3" width="80" height="80" alt="Carlos Souza">
+
+              <p class="fst-italic text-secondary mx-auto w-75">
+                "Os cursos me ajudaram a desenvolver minhas habilidades
+                e encontrar uma oportunidade na área de tecnologia."
+              </p>
+
+              <h5 class="fw-bold mb-1">
+                Carlos Souza
+              </h5>
+
+              <p class="text-secondary mb-0">
+                Analista de Dados na DataTech
+              </p>
+
+            </div>
+          </div>
+
+
+          <!-- Perfil 3 -->
+          <div class="carousel-item">
+            <div class="text-center py-5">
+
+              <img src="https://i.pinimg.com/736x/4a/7f/1d/4a7f1db6d694150719188f5ea7119f63.jpg"
+                class="rounded-circle mb-3" width="80" height="80" alt="Mariana Oliveira">
+
+              <p class="fst-italic text-secondary mx-auto w-75">
+                "A plataforma foi essencial para minha preparação
+                e para conseguir minha primeira oportunidade profissional."
+              </p>
+
+              <h5 class="fw-bold mb-1">
+                Mariana Oliveira
+              </h5>
+
+              <p class="text-secondary mb-0">
+                UX Designer na CreativeLab
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- Botão anterior -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
+
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+          </span>
+
+          <span class="visually-hidden">
+            Anterior
+          </span>
+        </button>
+
+
+        <!-- Botão próximo -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="next">
+
+          <span class="carousel-control-next-icon" aria-hidden="true">
+          </span>
+
+          <span class="visually-hidden">
+            Próximo
+          </span>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- Parte azul -->
+    <div class="bg-primary text-white py-4">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <!-- Texto -->
+          <div class="col-md-6 mb-3 mb-md-0">
+            <h5 class="fw-bold">
+              <i class="bi bi-envelope-fill"></i>
+              Receba vagas no seu e-mail
+            </h5>
+
+            <p class="mb-0 small">
+              Cadastre-se para receber novas oportunidades de emprego.
+            </p>
+          </div>
+
+          <!-- Formulário -->
+          <div class="col-md-6">
+            <form class="d-flex">
+              <input type="email" class="form-control me-2" placeholder="Seu melhor e-mail" required>
+
+              <button type="submit" class="btn btn-light">
+                Cadastrar
               </button>
             </form>
           </div>
+
         </div>
-      </nav>
-    </header>
-
-    <!-- Área principal -->
-    <main>
-      <!-- Hero -->
-      <section class="py-5 bg-dark">
-        <div class="container">
-          <div class="row align-items-center">
-            <!-- Texto -->
-            <div class="col-md-6">
-              <h1 class="display-4 fw-bold text-white">
-                Sua carreira em tecnologia começa aqui!
-              </h1>
-
-              <p class="lead text-white">
-                Conectamos talentos tech ás melhores oportunidades do mercado.
-              </p>
-
-              <!-- Botões -->
-              <a href="#" class="btn btn-primary btn-lg me-2"> Ver Vagas </a>
-
-              <a href="#" class="btn btn-outline-primary btn-lg">
-                Cursos Gratuitos
-              </a>
-            </div>
-
-            <!-- Imagem -->
-            <div class="col-md-6 text-center mt-4 mt-md-0">
-              <img
-                src="https://conteudo.imguol.com.br/blogs/113/files/2018/01/iStock-635974362.jpg"
-                alt="Imagem ilustrativa"
-                class="img-fluid rounded"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <br />
-      <!-- Título da Seção -->
-      <div class="d-flex justify-content-center align-items-center">
-        <i class="bi bi-stars" style="font-size: 2rem"></i>
-        <h2>Vagas em Destaque</h2>
       </div>
+    </div>
 
-      <!-- Seção de Vagas -->
-      <section class="container">
-        <br />
+
+    <!-- Parte escura -->
+    <div class="bg-dark text-white py-4">
+      <div class="container">
+
         <div class="row">
-          <!-- Card-1 -->
-          <div class="col-lg">
-            <div class="card" style="width: 25rem">
-              <div class="card-body">
-                <span class="badge rounded-pill text-bg-success">Remoto</span>
-                <h5 class="card-title">Desenvolvedor Front-End</h5>
-                <p class="card-text">HTML, CSS, JavaScript e React</p>
-                <div class="d-flex gap-2">
-                  <i class="bi bi-square-fill"></i>
-                  <p class="card-text">Tech Solutions Inc.</p>
-                </div>
-                <br />
-                <a href="#" class="btn btn-primary">Candidatar-se</a>
-              </div>
+
+          <!-- Empresa -->
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h6 class="fw-bold">Tech Careers</h6>
+
+            <p class="small text-secondary mb-0">
+              Conectando talentos às melhores
+              oportunidades desde 2023.
+            </p>
+
+            <p class="small text-secondary mt-2">
+              To de olho Diego
+            </p>
+          </div>
+
+
+          <!-- Links -->
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h6 class="fw-bold">Links</h6>
+
+            <ul class="list-unstyled small">
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">
+                  Vagas
+                </a>
+              </li>
+
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">
+                  Cursos
+                </a>
+              </li>
+
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">
+                  Para empresas
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+
+          <!-- Contato -->
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h6 class="fw-bold">Contato</h6>
+
+            <p class="small text-secondary mb-2">
+              <i class="bi bi-envelope"></i>
+              Algoaí@techcareers.com
+            </p>
+
+            <p class="small text-secondary mb-2">
+              <i class="bi bi-telephone"></i>
+              (31) 99999-9999
+            </p>
+
+            <p class="small text-secondary">
+              <i class="bi bi-geo-alt"></i>
+              Barbacena - MG
+            </p>
+          </div>
+
+
+          <!-- Redes sociais -->
+          <div class="col-md-3">
+            <h6 class="fw-bold">Redes Sociais</h6>
+
+            <div class="d-flex gap-3 mt-3">
+
+              <a href="#" class="text-white fs-5">
+                <i class="bi bi-instagram"></i>
+              </a>
+
+              <a href="#" class="text-white fs-5">
+                <i class="bi bi-linkedin"></i>
+              </a>
+
+              <a href="#" class="text-white fs-5">
+                <i class="bi bi-facebook"></i>
+              </a>
+
+              <a href="#" class="text-white fs-5">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+
             </div>
           </div>
 
-          <!-- Card-2 -->
-          <div class="col-lg">
-            <div class="card" style="width: 25rem">
-              <div class="card-body">
-                <span class="badge rounded-pill text-bg-warning">Híbrido</span>
-                <h5 class="card-title">Analista de Dados</h5>
-                <p class="card-text">Python, SQL e Power BI</p>
-                <div class="d-flex gap-2">
-                  <i class="bi bi-square-fill"></i>
-                  <p class="card-text">Data Insights</p>
-                </div>
-                <br />
-                <a href="#" class="btn btn-primary">Candidatar-se</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card-3 -->
-          <div class="col-lg">
-            <div class="card" style="width: 25rem">
-              <div class="card-body">
-                <span class="badge rounded-pill text-bg-info">Junior</span>
-                <h5 class="card-title">UX Designer/h5>
-                <p class="card-text">Figma, UI/UX e Prototipação</p>
-                <div class="d-flex gap-2">
-                  <i class="bi bi-square-fill"></i>
-                  <p class="card-text">Digital Creations</p>
-                </div>
-                <br />
-                <a href="#" class="btn btn-primary">Candidatar-se</a>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="text-center mt-4">
-          <a href="#" class="btn btn-outline-primary">
-            Ver todas as vagas <i class="bi bi-arrow-right"></i
-          ></a>
+
+        <!-- Linha -->
+        <hr class="border-secondary my-4">
+
+        <!-- Copyright -->
+        <div class="text-center">
+          <p class="small text-secondary mb-0">
+            © 2026 Tech Careers. Todos os direitos reservados.
+          </p>
         </div>
-      </section>
 
-      <!-- Seção de Cursos -->
-      <section>
+      </div>
+    </div>
+  </footer>
 
-      </section>
-    </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!-- Rodapé -->
-    <footer></footer>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
-
-<!-- <i class="bi bi-umbrella" style="font-size: 100rem "></i> -->
